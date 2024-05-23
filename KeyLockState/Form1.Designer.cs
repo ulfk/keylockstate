@@ -63,8 +63,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(540, 222);
             Controls.Add(buttonHideForm);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
-            Text = "Form1";
+            Text = "KeyLockState";
             Shown += Form1_Shown;
             ResumeLayout(false);
         }
